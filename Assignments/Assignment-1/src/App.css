@@ -1,0 +1,35 @@
+.myBody{
+  width: 100%;
+  height: 100vh;
+  background-color:cadetblue;
+}
+.myHeading{
+  margin: 20px 10px 30px;
+  text-decoration: underline;
+}
+.multipleHeading{
+  font-size: 20px;
+}
+.mPara{
+  font-style: italic;
+}
+ul{
+  text-align: left;
+  margin-left: 20px;
+}
+.myCol{
+  text-align: left;
+  border: solid black 1px;
+  padding: 10px 20px 10px 20px;
+  margin-left: 1px;
+}
+.externalP{
+  background-color: blanchedalmond;
+  font-style: italic;
+  text-align: center;
+}
+.headingColumn{
+  text-align: center;
+  border: solid black 3px;
+  padding: 15px 20px 15px 20px
+}
