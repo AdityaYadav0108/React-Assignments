@@ -28,11 +28,13 @@ function App() {
 
   return (
     <div className={styles.container}>
-      <button onClick={() => setSelectedComponent('A')}>Show A</button>
-      <button onClick={() => setSelectedComponent('B')}>Show B</button>
-      <button onClick={() => setSelectedComponent('C')}>Show C</button>
-      <button onClick={() => setSelectedComponent('D')}>Show D</button>
-      <button onClick={() => setSelectedComponent('E')}>Show E</button>
+      <div className={styles.btnContainer}>
+      <button className={`${styles.myBtn} btn btn-outline-secondary`} onClick={() => setSelectedComponent('A')}>Assignment-1</button>
+      <button className={`${styles.myBtn} btn btn-outline-secondary`} onClick={() => setSelectedComponent('B')}>Assignment-2</button>
+      <button className={`${styles.myBtn} btn btn-outline-secondary`} onClick={() => setSelectedComponent('C')}>Assignment-3</button>
+      <button className={`${styles.myBtn} btn btn-outline-secondary`} onClick={() => setSelectedComponent('D')}>Assignment-4</button>
+      <button className={`${styles.myBtn} btn btn-outline-secondary`} onClick={() => setSelectedComponent('E')}>Assignment-5</button>
+      </div>
 
       {renderComponent()}
     </div>

@@ -1,3 +1,17 @@
+
 body{
   background-color: #bde0fe !important;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.btnContainer{
+  display: flex;
+  gap: 30px;
+}
+.myBtn{
+  margin-top: 10px;
 }
